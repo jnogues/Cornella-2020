@@ -1,1 +1,1 @@
-# electrotecnia
+# ELECTROTÈCNIA CURS 2018-19
