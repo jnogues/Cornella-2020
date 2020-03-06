@@ -11,10 +11,10 @@
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "KgIE_4Kzq1pOvB0I7ABAXGQtzol9o1y4"; 
+char auth[] = "aaaabbbbbcccccddddd"; 
 
-char ssid[] = "viscalaterra";
-char pass[] = "pitufito*";
+char ssid[] = "WLAN_2020";
+char pass[] = "12345678";
 //---------------------------------------------------------------------------------------------
 
 void setup()
