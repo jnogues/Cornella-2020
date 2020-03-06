@@ -1,6 +1,6 @@
 # Curs Cornellà 2020
 
-'''
+```
 /curs Cornellà 2020
 //Exercici 0
 //06.03.2020
@@ -30,4 +30,4 @@ void loop()
 Blynk.run();
 }
 
-'''
+```
