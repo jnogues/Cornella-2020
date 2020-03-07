@@ -61,7 +61,7 @@ void enviaTemperaturaDS18B20()
   Serial.printf("[%u] temperatura 0 = %.2f", millis(), t);
   Serial.println("");
   float t1 = DS18B20.getTempCByIndex(1);
-  Blynk.virtualWrite(V1,t);
+  Blynk.virtualWrite(V1,t1);
   Serial.printf("[%u] temperatura 1 = %.2f", millis(), t1);
   Serial.println("");
 }
