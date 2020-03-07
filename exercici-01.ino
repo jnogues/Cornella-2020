@@ -50,7 +50,7 @@ digitalWrite(16, !digitalRead(16));
 
 void uptime()
 {
-Blynk.virtualWrite(V0, millis() / 1000);
+Blynk.virtualWrite(V20, millis() / 1000);
 }
 
 void enviaTemperaturaDS18B20()
@@ -58,6 +58,6 @@ void enviaTemperaturaDS18B20()
   DS18B20.requestTemperatures(); 
   float t = DS18B20.getTempCByIndex(0);
   Blynk.virtualWrite(V1,t);
-  Serial.printf("[%u] temperatura= %.2f", millis(), t);
+  Serial.printf("[%u] temperatura 0 = %.2f", millis(), t);
   Serial.println("");
 }
