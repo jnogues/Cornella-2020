@@ -16,8 +16,8 @@ char auth[] = "aaaaabbbbbbcccccdddddd";
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature DS18B20(&oneWire);
 
-char ssid[] = "WLAN_2020";
-char pass[] = "12345678";
+char ssid[] = "IoT2";
+char pass[] = "pitufito";
 BlynkTimer timer;
 //---------------------------------------------------------------------------------------------
 
