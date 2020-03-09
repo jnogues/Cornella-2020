@@ -10,8 +10,8 @@
 #include <BlynkSimpleEsp8266.h>
 char auth[] = "aaaabbbbbcccccddddd"; 
 
-char ssid[] = "WLAN_2020";
-char pass[] = "12345678";
+char ssid[] = "IoT2";
+char pass[] = "pitufito";
 //---------------------------------------------------------------------------------------------
 
 void setup()
